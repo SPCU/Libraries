@@ -1,4 +1,4 @@
-module shared_libraries
+module github.com/SPCU/Libraries
 
 go 1.17
 
