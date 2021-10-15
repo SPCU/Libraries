@@ -47,6 +47,9 @@ func NewLogger(config SpcuLoggerConfig) (*SpcuLogger, error) {
 
 	ll.Infof("A SPCU logger has been provided: %+v\n", config)
 
+	// For now
+
+
 	return &SpcuLogger{
 		ll,
 		config,

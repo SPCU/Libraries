@@ -33,3 +33,7 @@ func TestSpcuLoggerWithFileOutput(t *testing.T) {
 	logger.Debugln("This is a debug log.")
 	logger.Errorln("This is an error log.")
 }
+
+func TestSpcuLoggerFileThreshold(t *testing.T)  {
+
+}
